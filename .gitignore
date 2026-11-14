@@ -1,0 +1,32 @@
+
+# Virtual environments
+venv/
+.venv/
+mlops_env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# MLflow local tracking
+mlflow.db
+mlflow.db-shm
+mlflow.db-wal
+mlruns/
+
+# Dataset and generated model
+data/*.csv
+*.pkl
+
+# Local environment variables
+.env
+.env.*
+
+# Generated temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
